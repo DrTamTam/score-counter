@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <div class="container">
+         <div class="home">
+            <h3>HOME</h3>
+        </div>
+        <div class="guest">
+            <h3>GUEST</h3>
+        </div>
+        <div class="scorehome">
+            <h3 id="ash">0</h3>
+        </div>
+        <div class="scoreguest">
+            <h3 id="asg">0</h3>
+        </div>
+        <div class="asha">
+            <button id="hsbtn1" onclick="increaseHomeScoreOne()">+1</button>
+            <button id="hsbtn2" onclick="increaseHomeScoreTwo()">+2</button>
+            <button id="hsbtn3" onclick="increaseHomeScoreThree()">+3</button>
+        </div>
+        <div class="ashg">
+            <button id="gsbtn1" onclick="increaseGuestScoreOne()">+1</button>
+            <button id="gsbtn2" onclick="increaseGuestScoreTwo()">+2</button>
+            <button id="gsbtn3" onclick="increaseGuestScoreThree()">+3</button>
+        </div>
+        <div>
+            <div id="time">00:00</div>
+            <div name="buttons">
+            <input id="start_btn" type="image" src="images/strt-btn.png" onclick="start()"/>
+            <input id="stop_btn" type="image" src="images/ww.jpeg" onclick="stop()"/> 
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
